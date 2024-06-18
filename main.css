@@ -1,0 +1,71 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #ccc;
+
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color:#ffff;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.image{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    mix-blend-mode: color-burn;
+}
+.dot1{
+    width: 72px;
+    height:72px;
+    position: absolute;
+    background-color:inherit;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 38%;
+    top: 63%;
+}
+.dot2{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    background-color:inherit;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 65%;
+    top: 52%
+}
+img{
+    width: 300px;
+}
+.score{
+    width: 170px;
+    height: 65px;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    border-radius: 4px;
+    font-size: 3rem;
+    text-align: right;
+}
+p{
+    font-size: 3rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+#reset{
+    display:none
+}
